@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header>
+        <h1 id="title">Bank Survey Form</h1>
+        <p id="description">Thank you for your time to help us to improve your banking experience</p>
+    </header>
+
+    <form action="#" id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" id="name" class="text-input" required />
+        </div>
+
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" placeholder="Enter Your Email" id="email" class="text-input" required />
+        </div>
+
+        <div class="form-group">
+            <label id="number-label" for="number">Age (optional)</label>
+            <input type="number" placeholder="Age" id="number" class="text-input" min="18" max="99" />
+        </div>
+
+        <div class="form-group">
+            <p>Gender</p>
+            <label>
+                <input type="radio" value="male" name="gender" class="radio-input">Male
+            </label>
+
+            <label>
+                <input type="radio" value="female" name="gender" class="radio-input">Female
+            </label>
+
+            <label>
+                <input type="radio" value="other" name="gender" class="radio-input">other
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Account Type<p>
+                    <select name="account" id="dropdown">
+                        <option value="" disabled selected>Please Select Your Account Type</option>
+                        <option value="current">Current account</option>
+                        <option value="saving">Savings account</option>
+                        <option value="salary">Salary account</option>
+                        <option value="fixed-deposit">Fixed deposit account</option>
+                        <option value="recurring-deposit">Recurring deposit account</option>
+                        <option value="nri-account">NRI accounts</option>
+                    </select>
+        </div>
+
+        <div class="form-group">
+            <p>What would you like to see improved?</p>
+
+            <label>
+                <input type="checkbox" value="branch" name="improve" class="checkbox-input">
+                In-person branch experience
+            </label>
+
+            <label>
+                <input type="checkbox" value="online" name="improve" class="checkbox-input">
+                Online experience
+            </label>
+
+
+            <label>
+                <input type="checkbox" value="telephone" name="improve" class="checkbox-input">
+                Telephone experience
+            </label>
+
+            <label>
+                <input type="checkbox" value="atm" name="improve" class="checkbox-input">
+                ATM branch experience
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Please rate your overall satisfaction level with your recent experience</p>
+
+            <label>
+                <input type="radio" value="e-dissatisfied" name="overall-satisfaction" class="radio-input">
+                Extremely Dissatisfied
+            </label>
+
+            <label>
+                <input type="radio" value="dissatisfied" name="overall-satisfaction" class="radio-input">
+                Dissatisfied
+            </label>
+
+            <label>
+                <input type="radio" value="neutral" name="overall-satisfaction" class="radio-input">
+                Neutral
+            </label>
+
+            <label>
+                <input type="radio" value="satisfied" name="overall-satisfaction" class="radio-input">
+                Satisfied
+            </label>
+
+            <label>
+                <input type="radio" value="e-satisfied" name="overall-satisfaction" class="radio-input">
+                Extremely Satisfied
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Please Provide any additional feedback you'd like to share</p>
+            <textarea name="feedback" cols="30" rows="10" placeholder="Enter your feedback here..."></textarea>
+        </div>
+
+        <div class="form-group form-btn-group">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
