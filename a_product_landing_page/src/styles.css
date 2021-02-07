@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --bg-main1: #fff0d7;
+  --bg-main2: #FDDBB5;
+  --main-blue: #3d9ae2;
+  --bg-blue: #077bd4;
+  --gray: gray;
+  --white: white;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body {
+  font-size: 120%;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-main1);
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 2rem;
+}
+p,a,li {
+  font-size: 1.2rem;
+}
+
+section,main{
+  margin-bottom: 50px;
+}
+
+button,
+input[type="submit"]{
+  padding: 10px 10px;
+  background-color: var(--main-blue);
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ button:hover,
+ input[type="submit"]:hover{
+  background-color: var(--bg-blue);
+}
+input,a,button{
+  outline-width: 1px;
+  outline-color: blue;
+}
+
+
+.flex-row-wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  background-color: var(--bg-main1);
+  width: 100%;
+  padding: 10px 10px 0;
+  z-index: 1;
+}
+
+.logo{
+  align-items: center;
+}
+
+.logo-item{
+  padding: 0 10px;
+}
+
+.logo-img {
+  width: 75px;
+  height: 75px;
+}
+
+.logo-title{
+    color: var(--main-blue);
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px; 
+    color: var(--main-blue);
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background-color: var(--main-blue);
+    color: var(--white);
+}
+.hero {
+  position: relative;
+  justify-content: center;
+  align-items:center;
+  align-content: center;
+  height: calc(100vh - 100px);
+  margin-top: 100px;
+  flex-wrap: nowrap;
+}
+.hero-item{
+   flex-basis: 46%;
+   margin: 0 2%;
+}
+.hero-title{
+  color: var(--main-blue);
+  margin-left: 150px;
+}
+.hero-title h4{
+    color: var(--gray);
+}
+
+.hero-img {
+ background-image: url("../images/mom-daughter-yoga.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 90%;
+ height: 100%;
+}
+
+.why-yoga{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-main2);
+    padding: 100px 0;
+}
+
+.why-yoga-item{
+    margin: 0 2%;   
+}
+.why-yoga-text{
+  max-width: 500px;
+}
+.why-yoga-text h2{
+    margin-bottom: 20px;
+    color: var(--main-blue);
+}
+.why-yoga-text ul{
+    padding: 0;
+}
+.why-yoga-text li{
+    color: var(--gray);
+    list-style: none;
+    padding: 5px 0;
+    font-size: 1.5rem;
+}
+.fa-check-circle{
+    margin-right: 10px;
+    color:var(--main-blue);
+}
+
+.class{
+  padding: 0 10px;
+}
+.class-heading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--main-blue);
+}
+
+.class-heading h4{
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+
+.class-group{
+  justify-content: center;
+}
+.class-group-item{
+  display: block;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.class-group-item div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background-clip: content-box;
+  border: 200px solid rgb(61, 154, 226,0);
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.class-group-item div h4{
+  position: absolute;
+  color: var(--white);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(61, 154, 226, 0.8);
+  bottom: 0;
+}
+.class-group-item div:hover{
+   border-color: rgb(61, 154, 226,0.8);
+}
+.class-group-item div:hover h4{
+  height: 100%;
+  line-height: 400px;
+  background-color: transparent;
+}
+
+.class1,.class-b{
+  background-image: url("../images/beginner-yoga.jpg");
+
+}
+.class2,.class-p{
+   background-image: url("../images/yoga-pregnant.jpg");
+}
+.class3,.class-c{
+   background-image: url("../images/couple-yoga.jpg");
+}
+.class4,.class-g{
+   background-image: url("../images/group-yoga.jpg");
+}
+.class5,.class-k{
+   background-image: url("../images/kid-yoga.jpg");
+}
+.class6,.class-o{
+   background-image: url("../images/online-yoga.jpg");
+}
+
+.price-box{
+  justify-content: center;
+  align-items: center;
+}
+.price-box-heading{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: var(--gray);
+}
+.price-box-item{
+  background-color: var(--bg-main2);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.8;
+  margin: 20px;
+  color: var(--main-blue);
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+}
+.price-box-item h3{
+  font-size: 2rem;
+  color: var(--gray);
+}
+.price-box-item ul{
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.price-box-item:hover{
+  transform: scale(1.1);
+}
+
+footer{
+  background-color: var(--main-blue);
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+.newslater-box{
+  width: 100%;
+}
+footer .form-heading{
+  margin-bottom: 20px;
+  color: var(--white);
+  text-align: center;
+  font-size: 1.8rem;
+}
+footer form{
+  width: 100%;
+  padding: 30px;
+  background-color: var(--white);
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+footer label{
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+}
+footer input[type='email']{
+  width: 75%;
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 1.2rem;
+  background-color: #f1f1f1
+}
+footer input[type='email']:focus{
+  background-color: var(--white);
+}
+input[type="submit"]{
+  display: block;
+  margin: auto;
+}
+
+
+@media all and (max-width: 1200px){
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 2.2rem;
+  }
+  h3{
+    font-size: 2rem;
+  }
+   h4{
+    font-size: 1.8rem;
+  }
+  .why-yoga-item{
+     flex-basis: 46%;
+  }
+  .why-yoga-video iframe{
+    width: 100%;
+    height: 315px;
+  }
+}
+@media all and (max-width: 1000px){
+  .class-group-item{
+    width: 350px;
+    height: 350px;
+  }
+  .class-group-item div{
+    border-width: 175px;
+  }
+  
+  .class-group-item div:hover h4{
+    height: 100%;
+   line-height: 350px;
+   background-color: transparent;
+  }
+}
+@media all and (max-width: 800px){
+  .header{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero-title{
+    margin-left: 100px;
+  }
+  .why-yoga-item{
+     flex-basis: 80%;
+  }
+  .why-yoga-text{
+    margin-bottom: 100px;
+  }
+  .class-group-item{
+    width: 400px;
+    height: 400px;
+  }
+  .class-group-item div{
+    border-width: 200px;
+  }
+  
+  .class-group-item div:hover h4{
+    height: 100%;
+   line-height: 400px;
+   background-color: transparent;
+  }
+}
+@media all and (max-width: 650px){
+  .header{
+    height: 150px;
+    padding: 0;
+  }
+  .logo-img{
+    width: 50px;
+    height: 50px;
+  }
+  .logo-title{
+    font-size: 1.5rem;
+  }
+  .nav-link{
+    padding: 2px;
+    margin: 0;
+  }
+  .hero{
+    justify-content: center;
+    height: calc(100vh - 150px);
+    margin-top: 150px;
+    align-items: center;
+    align-content: center;
+  }
+  .hero-title{
+    flex-basis: 80%;
+    margin-left: 0;
+  }
+  .hero-title h1{
+    font-size: 2.5rem;
+  }
+  .hero-img{
+    display: none;
+  }
+}
+@media all and (max-width: 450px){
+  .class-group-item{
+    width: calc(90vw - 10px);
+    height: 90vw;
+    padding: 0;
+  }
+  .class-group-item div{
+    border-width: 0px;
+  }
+  
+  .class-group-item div h4{
+    font-size: 5vw;
+  }
+  .class-group-item div:hover{
+    border-width: 0px;
+  }
+  .class-group-item div:hover h4{
+   height: inherit;
+   line-height: inherit;
+   background-color:rgb(61, 154, 226, 0.8);
+  }
+  footer{
+    padding: 50px 10px;
+  }
+  footer form{
+    padding:  30px 10px;
+  }
+}
+@media all and (max-width: 350px){
+  .nav-link{
+    font-size: 1rem;
+  }
+}

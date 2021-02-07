@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YogaLab</title>
+    <link rel="shortcut icon" href="./images/yoga-logo.svg">
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="https://kit.fontawesome.com/8b681eaa53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header" class="header flex-row-wrap">
+        <div class="logo flex-row-wrap">
+            <div class="logo-img-box logo-item">
+                <img src="./images/yoga-logo.svg" alt="" id="header-img" class="logo-img">
+            </div>
+            <div class="logo-title-box logo-item">
+                <h4 class="logo-title">YogaLab</h4>
+            </div>
+        </div>
+        <nav id="nav-bar">
+            <a href="#why-yoga-box" class="nav-link">Why Yoga</a>
+            <a href="#class-box" class="nav-link">Classes</a>
+            <a href="#price-box" class="nav-link">Prices</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero-box" class="hero flex-row-wrap">
+
+            <div id="hero-title-box" class="hero-title hero-item">
+                <h1>
+                    Inspiration For Joyful Living
+                </h1>
+                <h4>Do Yoga today for a better tomorrow</h4>
+            </div>
+
+            <div id="hero-img-box" class="hero-img hero-item">
+                <!-- <img src="./images/mom-daughter-yoga.jpg" alt="yoga-mom-daughter-image"> -->
+            </div>
+
+        </section>
+
+        <section id="why-yoga-box" class="why-yoga flex-row-wrap">
+            <div class="why-yoga-text why-yoga-item">
+                <h2>Why You Should Go To Yoga</h2>
+                <ul>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Yoga boosts brain power
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Yoga helps you to breathe better
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Yoga improves your strength
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Yoga helps you to focus
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Yoga helps give meaning to your day
+                    </li>
+                </ul>
+            </div>
+            <div class="why-yoga-video why-yoga-item">
+
+                <iframe id="video" width="560px" height="315px"
+                    src="https://www.youtube.com/embed/_8kV4FHSdNA?controls=0"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+
+        </section>
+        <section id="class-box" class="class flex-row-wrap">
+            <div class="class-heading">
+                <h4>YOGA CLASSES</h4>
+                <h2>Choose Your Level & Focus</h2>
+            </div>
+            <div class="class-group flex-row-wrap">
+                <a href="#" class="class1 class-b class-group-item">
+                    <div>
+                        <h4>Yoga For Beginners</h4>
+                    </div>
+                </a>
+                <a href="#" class="class2 class-p class-group-item">
+                        <div>
+                            <h4>Yoga For Pregnant</h4>
+                        </div>
+                </a>
+                <a href="#" class="class3 class-c class-group-item">
+                        <div>
+                            <h4>Yoga for Couples</h4>
+                        </div>
+                </a>
+                <a href="#" class="class4 class-g class-group-item">
+                        <div>
+                            <h4>Yoga In Group</h4>
+                        </div>
+                </a>
+                <a href="#" class="class5 class-k class-group-item">
+                        <div>
+                            <h4>Yoga for Kids</h4>
+                        </div>
+                </a>
+                <a href="#" class="class6 class-o class-group-item">
+                    <div>
+                            <h4>Online Yoga</h4>
+                   </div>
+                </a>
+             </div>
+
+        </section>
+
+        <section id="price-box" class="price-box flex-row-wrap">
+            <h2 class="price-box-heading">Membership Plans</h2>
+            <div class="price-card price-box-item monthly flex-column">
+                <h3 class="price-card-heading">Monthly</h3>
+                <h2>400 Rs</h2>
+                <ul>
+                    <li>Online Yoga Video</li>
+                    <li>In Studio Yoga</li>
+                    <li>Group Trainer</li>
+                    <li>Fitness Orientation</li>
+                </ul>
+                <button>GET STARTED</button>
+            </div>
+            <div class="price-card price-box-item half-yearly flex-column">
+               <h3 class="price-card-heading">Half-Yearly</h3>
+               <h2>2000 Rs</h2>
+               <ul>
+                   <li>1 Month Free</li>
+                   <li>Online Yoga Video</li>
+                   <li>In Studio Yoga</li>
+                   <li>Fitness Orientation</li>
+               </ul>
+               <button>GET STARTED</button>
+            </div>
+            <div class="price-card price-box-item yearly flex-column">
+               <h3 class="price-card-heading">Yearly</h3>
+               <h2>4000 Rs</h2>
+               <ul>
+                   <li>2 Month Free</li>
+                   <li>Online Yoga Video</li>
+                   <li>In Studio Yoga</li>
+                   <li>Fitness Orientation</li>
+               </ul>
+               <button>GET STARTED</button>
+            </div>
+            
+        </section>
+
+        
+    </main>
+    <footer class="flex-row-wrap">
+            <div id="contact" class="newslater-box flex-column">
+               <h4 class="form-heading">Subscribe Our Newsletter</h4>
+               <form action="https://www.freecodecamp.com/email-submit" id="form" class="newslater-form">
+                   <label for="email">Email:
+                       <input type="email" id=email name="email" placeholder="Enter Your Email" />
+                   </label>
+                   <input type="submit" id="submit" value="Subscribe" />
+               </form>
+            </div>
+    </footer>
+</body>
+
+</html>
