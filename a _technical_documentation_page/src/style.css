@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+p,
+code,
+li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+p code {
+  padding: 2px 3px;
+  white-space: nowrap;
+}
+code {
+  background-color: rgb(236, 236, 236);
+  font-family: monospace;
+}
+pre {
+  overflow: auto;
+  padding: 10px;
+  background-color: rgb(236, 236, 236);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  border-right: 2px solid rgb(0, 0, 0);
+  width: 300px;
+  transition: all 0.2s ease;
+}
+
+nav header {
+  height: 200px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav header img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+nav ul {
+  position: absolute;
+  top: 200px;
+  bottom: 0;
+  margin: 0;
+  width: 298px;
+  background-color: white;
+  padding: 0 0 50px 0;
+  overflow: auto;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 10px 10px 20px;
+  border-top: 1px solid black;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+}
+
+nav ul li:nth-child(2) a {
+  border-top: none;
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: white;
+}
+
+nav header .open-navbar {
+  font-size: 0;
+  display: none;
+  color: black;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+#navbar:target {
+  margin-left: 0px;
+}
+
+nav ul li:nth-child(1){
+  text-align: right;
+}
+nav ul .close-navbar{
+    font-size: 0;
+    display: none;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul .close-navbar:hover,
+nav header .open-navbar:hover{
+    background: black;
+    color: white;
+}
+
+main {
+  height: 100%;
+  margin-left: 300px;
+  padding: 50px 100px;
+  overflow: auto;
+  transition: all 0.2s ease;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section header {
+  padding-top: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media all and (max-width: 1200px) {
+  main {
+    padding: 50px;
+  }
+}
+@media all and (max-width: 1000px) {
+  main {
+    padding: 30px;
+  }
+}
+
+@media all and (max-width: 900px) {
+ body{
+    height: calc(100% - 100px);
+  }
+  main {
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 0;
+    padding: 50px;
+  }
+  nav {
+    margin-left: -300px;
+  }
+  nav header {
+    position: fixed;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+    width: 100%;
+    right: 0;
+  }
+  nav header img {
+    width: 75px;
+    height: 75px;
+  }
+  nav header .open-navbar {
+    display: block;
+  }
+
+  nav ul{
+    top: 100px;
+  }
+
+  nav ul .close-navbar{
+      display: inline-block;
+  }
+
+  nav ul li:nth-child(2) a{
+    border-top: none;
+  }
+}
+
+@media all and (max-width: 800px) {
+    main{
+        padding: 30px;
+    }
+}
+
+@media all and (max-width: 600px){
+    body{
+        height: calc(100% - 80px);
+      }
+      main {
+        height: 100%;
+        margin-top: 80px;
+        padding: 20px;
+    }
+    nav header{
+        height: 80px;
+    }
+    nav header img{
+        width: 55px;
+        height: 55px;
+    }
+    nav ul{
+        top: 80px;
+    }
+    section header{
+        font-size: 2.2rem;
+    }
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    
+    ::-webkit-scrollbar:vertical {
+        width: 12px;
+    }
+    
+    ::-webkit-scrollbar:horizontal {
+        height: 12px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 10px;
+        border: 2px solid #ffffff;
+    }
+    
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #e6e6e6;
+    }
+}
+
+@media all and (max-width: 300px){
+    nav{
+        width: 100vw;
+    }
+
+    nav ul{
+        width: calc(100vw - 2px);
+    }
+}
