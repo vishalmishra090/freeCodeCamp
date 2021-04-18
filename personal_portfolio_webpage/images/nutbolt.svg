@@ -1,0 +1,113 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" style="enable-background:new" viewBox="0 0 32 32" version="1.1">
+	<title>Screw head</title>
+	<defs>
+		<linearGradient id="a">
+			<stop stop-color="#7e7e7e" offset="0"/>
+			<stop stop-color="#b4b4b4" offset=".30747"/>
+			<stop stop-color="#fff" offset=".43247"/>
+			<stop stop-color="#909090" offset=".55747"/>
+			<stop stop-color="#666" offset="1"/>
+		</linearGradient>
+		<filter id="o" style="color-interpolation-filters:sRGB">
+			<feGaussianBlur stdDeviation="2.3009048"/>
+		</filter>
+		<filter id="m" style="color-interpolation-filters:sRGB">
+			<feGaussianBlur stdDeviation="0.16949999"/>
+		</filter>
+		<linearGradient id="i">
+			<stop stop-color="#333" offset="0"/>
+			<stop stop-color="#737373" offset=".13333"/>
+			<stop stop-color="#fff" offset=".46667"/>
+			<stop stop-color="#686868" offset=".6"/>
+			<stop stop-color="#333" offset="1"/>
+		</linearGradient>
+		<filter id="l" style="color-interpolation-filters:sRGB">
+			<feGaussianBlur stdDeviation="4" result="result8"/>
+			<feOffset dy="4" dx="4" result="result11"/>
+			<feComposite operator="in" result="result6" in2="result11" in="SourceGraphic"/>
+			<feFlood result="result10" in="result6" flood-color="rgb(0,0,0)"/>
+			<feBlend mode="normal" in="result6" in2="result10" result="result12"/>
+			<feComposite operator="in" in2="SourceGraphic" result="result2"/>
+		</filter>
+		<filter id="n" style="color-interpolation-filters:sRGB" height="1.6508" width="1.6508" y="-.32542" x="-.32542">
+			<feGaussianBlur stdDeviation="5.762729"/>
+		</filter>
+		<radialGradient id="h" xlink:href="#a" gradientUnits="userSpaceOnUse" cy="-2.2737e-13" cx="296" gradientTransform="matrix(-.42094 1.571 -2.7103 -.72624 420.6 -465)" r="29.532"/>
+		<radialGradient id="g" xlink:href="#a" gradientUnits="userSpaceOnUse" cy=".81213" cx="293.12" gradientTransform="matrix(1.4386,1.4819,-1.5005,1.4566,-120.27,-438.18)" r="29.467"/>
+		<linearGradient id="k" gradientUnits="userSpaceOnUse" x2="324.75" x1="267.25">
+			<stop stop-color="#333" offset="0"/>
+			<stop stop-color="#737373" offset=".2628"/>
+			<stop stop-color="#fff" offset=".3878"/>
+			<stop stop-color="#686868" offset=".5128"/>
+			<stop stop-color="#333" offset="1"/>
+		</linearGradient>
+		<radialGradient id="f" gradientUnits="userSpaceOnUse" cy="760.17" cx="340.21" gradientTransform="matrix(6.2346,1.1546,-1.9496,10.528,-575.26,-7358.4)" r="13.5">
+			<stop stop-color="#333" offset="0"/>
+			<stop stop-color="#afafaf" offset=".25"/>
+			<stop stop-color="#fff" offset=".375"/>
+			<stop stop-color="#b1b1b1" offset=".5"/>
+			<stop stop-color="#818181" offset="1"/>
+		</radialGradient>
+		<linearGradient id="c" x1="339.64" xlink:href="#i" gradientUnits="userSpaceOnUse" y1="765.77" gradientTransform="matrix(1.9652,0,0,1.9652,-593.17,-530.64)" x2="339.64" y2="725.59"/>
+		<radialGradient id="e" gradientUnits="userSpaceOnUse" cy="0" cx="296" gradientTransform="matrix(0 .86051 -.86051 0 48.967 759.71)" r="29.532">
+			<stop stop-color="#7e7e7e" offset="0"/>
+			<stop stop-color="#b4b4b4" offset=".30747"/>
+			<stop stop-color="#fff" offset=".70003"/>
+			<stop stop-color="#909090" offset=".87379"/>
+			<stop stop-color="#666" offset="1"/>
+		</radialGradient>
+		<radialGradient id="d" gradientUnits="userSpaceOnUse" cy="0" cx="296" gradientTransform="matrix(-1.1734,0,0,-1.1734,396.3,1014.4)" r="28.48">
+			<stop stop-color="#7e7e7e" offset="0"/>
+			<stop stop-color="#b4b4b4" offset=".30747"/>
+			<stop stop-color="#fff" offset=".90358"/>
+			<stop stop-color="#909090" offset=".96672"/>
+			<stop stop-color="#666" offset="1"/>
+		</radialGradient>
+		<linearGradient id="b" x1="248.08" xlink:href="#a" gradientUnits="userSpaceOnUse" y1="35.049" gradientTransform="matrix(-1.1734,0,0,-1.1734,396.3,1014.4)" x2="360.06" y2="5.0446"/>
+		<linearGradient id="j" x1="260.35" xlink:href="#a" gradientUnits="userSpaceOnUse" y1="31.461" gradientTransform="matrix(-1.1734,0,0,-1.1734,396.3,1014.4)" x2="360.82" y2="4.5402"/>
+	</defs>
+	<g transform="translate(-15.548 -1015.8)">
+		<g transform="matrix(.47877 0 0 .47877 8.1041 546.15)">
+			<path stroke-linejoin="round" d="m15.818 1014.4c0-18.308 14.841-33.149 33.149-33.149s33.149 14.841 33.149 33.149-14.841 33.149-33.149 33.149-33.149-14.841-33.149-33.149z" stroke="url(#b)" stroke-linecap="round" stroke-width=".53977" fill="url(#j)"/>
+			<path opacity=".59483" stroke-linejoin="round" d="m15.818 1014.4c0-18.308 14.841-33.149 33.149-33.149s33.149 14.841 33.149 33.149-14.841 33.149-33.149 33.149-33.149-14.841-33.149-33.149z" stroke="url(#b)" stroke-linecap="round" stroke-width=".53977" fill="url(#d)"/>
+			<path d="m324.25 0c0 15.602-12.648 28.25-28.25 28.25s-28.25-12.648-28.25-28.25 12.648-28.25 28.25-28.25 28.25 12.648 28.25 28.25z" transform="matrix(0 .93874 -.93874 0 48.967 736.56)" filter="url(#o)" fill="url(#h)"/>
+			<path opacity=".5" d="m324.25 0c0 15.602-12.648 28.25-28.25 28.25s-28.25-12.648-28.25-28.25 12.648-28.25 28.25-28.25 28.25 12.648 28.25 28.25z" transform="matrix(0 .86051 -.86051 0 48.967 759.71)" filter="url(#m)" stroke="url(#k)" stroke-width=".62727" fill="url(#g)"/>
+			<path opacity=".5" d="m48.967 1038.7c-13.426 0-24.309-10.884-24.309-24.309 0-13.426 10.884-24.309 24.309-24.309 13.426 0 24.309 10.884 24.309 24.309 0 13.426-10.884 24.309-24.309 24.309z" fill="url(#e)"/>
+			<path opacity=".65517" d="m72 903.12c-.65629-.007-1.2566.59371-1.25 1.25v1.8438 1.8438 1.8438 1.8438 1.8438c.1799 5.5504-1.2342 5.5312-5.5312 5.5312h-1.8438-1.8438-1.8438-1.8438-1.8438c-.65629-.007-1.2566.59371-1.25 1.25v8c-.0066.65629.59371 1.2566 1.25 1.25h1.8438 1.8438 1.8438 1.8438 1.8438c5.5504-.17989 5.5312 1.2342 5.5312 5.5312v1.8438 1.8438 1.8438 1.8438 1.8438c-.0066.65629.59371 1.2566 1.25 1.25h8c.65629.007 1.2566-.59371 1.25-1.25v-1.8438-1.8438-1.8438-1.8438-1.8438c-.1799-5.5504 1.2342-5.5312 5.5312-5.5312h1.8438 1.8438 1.8438 1.8438 1.8438c.65629.007 1.2566-.59371 1.25-1.25v-8c.0066-.65629-.59371-1.2566-1.25-1.25h-1.8438-1.8438-1.8438-1.8438-1.8438c-5.55.18-5.531-1.23-5.531-5.53v-1.8438-1.8438-1.8438-1.8438-1.8438c.0066-.65629-.59371-1.2566-1.25-1.25z" transform="matrix(.53977 0 0 .53977 7.9444 515.47)" filter="url(#l)" stroke="url(#c)" stroke-width="1.2" fill="url(#f)"/>
+			<path opacity=".79741" d="m72 903.12a1.2376 1.2376 0 0 0 -1.25 1.25v14.75h-14.75a1.2376 1.2376 0 0 0 -1.25 1.25v8a1.2376 1.2376 0 0 0 1.25 1.25h14.75v14.75a1.2376 1.2376 0 0 0 1.25 1.25h8a1.2376 1.2376 0 0 0 1.25 -1.25v-14.75h14.75a1.2376 1.2376 0 0 0 1.25 -1.25v-8a1.2376 1.2376 0 0 0 -1.25 -1.25h-14.75v-14.75a1.2376 1.2376 0 0 0 -1.25 -1.25h-8z" transform="matrix(.20241 0 0 .20241 33.584 827.32)" filter="url(#n)" stroke="url(#c)" stroke-width="1.2" fill="#fff"/>
+		</g>
+	</g>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work>
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<dc:publisher>
+					<cc:Agent rdf:about="http://openclipart.org/">
+						<dc:title>Openclipart</dc:title>
+					</cc:Agent>
+				</dc:publisher>
+				<dc:title>Screw head</dc:title>
+				<dc:date>2012-02-22T10:01:43</dc:date>
+				<dc:source>https://openclipart.org/detail/168452/screw-atsuktuvas-by-keistutis</dc:source>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>Keistutis</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<dc:subject>
+					<rdf:Bag>
+						<rdf:li>Screw head</rdf:li>
+						<rdf:li>atsuktuvas</rdf:li>
+					</rdf:Bag>
+				</dc:subject>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+</svg>

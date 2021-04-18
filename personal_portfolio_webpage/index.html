@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <nav id="navbar" class="navbar">
+      <button id="menuBtn" class="menu-btn">
+        <i id="menuBtnIcon" class="fas fa-bars"> </i>
+      </button>
+      <ul id="navList" class="nav-list">
+        <li>
+          <a class="nav-link nav-link-opacity-off" href="#welcome-section"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a class="nav-link nav-link-opacity-off" href="#skills">Sikll</a>
+        </li>
+        <li>
+          <a class="nav-link nav-link-opacity-off" href="#projects">Work</a>
+        </li>
+        <li>
+          <a class="nav-link nav-link-opacity-off" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- END NAV -->
+    <main>
+      <section id="welcome-section" class="welcome-section">
+        <img
+          class="welcome-section-item"
+          src="./images/namaste.svg"
+          alt="Namaste"
+        />
+        <div class="welcome-section-item">
+          <h1>Namaste, I am Vishal Mishra</h1>
+          <p>Web Developer and Designer From India</p>
+        </div>
+      </section>
+
+      <!-- END WELCOME SECTION -->
+
+      <!-- START SKILLS SECTION -->
+      <section id="skills" class="skills">
+        <h1 class="section-header">Skills</h1>
+        <div>
+          <ul class="skill-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>ReactJs</li>
+            <li>Bootstrap</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- END SKILLS SECTION -->
+
+      <!-- START PROJECTS SECTION -->
+
+      <section id="projects" class="projects-section">
+        <h1 class="section-header">Projects</h1>
+
+        <div class="projects-grid">
+          <div class="project-grid-item">
+            <img src="./images/ludo_screenshot.png" alt="Ludo Game" />
+            <a href="https://playludoonline.netlify.app/" class="project-tile">Ludo Game</a>
+            <a href="https://github.com/vishalmishra090/ludo-game"
+              >Source Code</a
+            >
+          </div>
+          <div class="project-grid-item">
+            <img src="./images/snakegame_screenshot.png" alt="Snake Game" />
+            <a href="https://playsnakegame090.netlify.app/" class="project-tile">Snake Game</a>
+            <a href="https://github.com/vishalmishra090/snake-game"
+              >Source Code</a
+            >
+          </div>
+          <div class="project-grid-item">
+            <img src="./images/tic-tac-toe-screenshot.png" alt="Tic Tac Toe" />
+            <a href="https://vishalmishra090.github.io/tic-tac-toe-game/"
+               class="project-tile">Tic Tac Toe Game</a
+            >
+            <a href="https://github.com/vishalmishra090/tic-tac-toe-game"
+              >Source Code</a
+            >
+          </div>
+          <div class="project-grid-item">
+            <img src="./images/my_movie_screenshot.png" alt="My Movie App" />
+            <a href="https://my-movie-app090.netlify.app/" class="project-tile">My Movie App</a>
+            <a href="https://github.com/vishalmishra090/my-movie-app-react"
+              >Source Code</a
+            >
+          </div>
+          <div class="project-grid-item">
+            <img src="./images/tribute_page.png" alt="A Tribute Page" />
+            <a href="https://tnbbh.csb.app/" class="project-tile">A Tribute Page</a>
+            <a
+              href="https://codesandbox.io/s/a-tribute-page-dr-a-p-j-abdul-kalam-tnbbh"
+              >Source Code</a
+            >
+          </div>
+          <div class="project-grid-item">
+            <img src="./images/bank_survey_form.png" alt="Bank Survey Form" />
+            <a href="https://mh2uc.csb.app/" class="project-tile">Bank Survey Form</a>
+            <a
+              href="https://codesandbox.io/s/build-a-survey-form-bank-survey-form-mh2uc"
+              >Source Code</a
+            >
+          </div>
+          <div class="project-grid-item">
+            <img
+              src="./images/product_landing_page.png"
+              alt="A Product Landing Page"
+            />
+            <a href="https://w2vml.csb.app/" class="project-tile">A Product Landing Page</a>
+            <a
+              href="https://codesandbox.io/s/build-a-product-landing-page-a-yoga-webpage-w2vml"
+              >Source Code</a
+            >
+          </div>
+          <div class="project-grid-item">
+            <img
+              src="./images/a_tech_doc_page.png"
+              alt="A Technical Documentation Page"
+            />
+            <a href="https://nys7d.csb.app/" class="project-tile">A Technical Documentation Page</a>
+            <a
+              href="https://codesandbox.io/s/build-a-technical-documentation-page-nys7d"
+              >Source Code</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- END PROJECTS SECTION -->
+
+      <!-- START CONTACT SECTION -->
+
+      <section id="contact" class="contact-section">
+        <div class="contact-links">
+          <a
+            id="profile-link"
+            href="https://github.com/vishalmishra090"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-github"></i> <span>GitHub</span></a
+          >
+          <a
+            href="https://twitter.com/vishalmishra090"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-twitter"></i> <span>Twitter</span></a
+          >
+          <a href="mailto:vishalmishra090@gmail.com" class="btn contact-details"
+            ><i class="fas fa-at"></i> <span>Send a mail</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <!-- START WELCOME SECTION -->
+    <script>
+      document.querySelector("#welcome-section").style.height =
+        window.innerHeight + "px";
+    </script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
