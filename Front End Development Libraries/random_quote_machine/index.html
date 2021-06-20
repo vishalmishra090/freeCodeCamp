@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Machine</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="https://kit.fontawesome.com/8b681eaa53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <main id="container" class="container">
+          <div id="page-loader" class="loader">
+            
+          </div>
+          <div id="quote-box" class="quote-box">
+              <h1 id="text" class="text">
+              </h1>
+
+              <p id="author" class="author"></p>
+
+              <div class="btn-group">
+
+                <a id="tweet-quote" href="#" class="btn tweet-quote-btn" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <button id="new-quote" class="btn new-quote-btn">
+                    <span id="btn-loader" class="loader">
+                    </span>
+                    <span id="btn-text">New Quote</span>
+                </button>
+
+              </div>
+          </div>
+
+    </main>
+   
+    <!-- jQuery script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html>

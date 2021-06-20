@@ -15,3 +15,7 @@
 3. Caesars Cipher
 4. Telephone Number Validator
 5. Cash Register
+
+## Front End Development Libraries
+
+1. Build a Random Quote Machine [Link to CodeSandBox](https://codesandbox.io/s/random-quote-machine-3t3s4)
