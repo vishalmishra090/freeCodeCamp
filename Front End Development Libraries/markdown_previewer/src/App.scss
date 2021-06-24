@@ -1,0 +1,102 @@
+#header{
+  height: 70px;
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0 20px;
+  
+  & .preview-icon{
+    display: block;
+    cursor: pointer;
+  }
+
+  @media (min-width: 800px){
+    justify-content: center;
+    & .preview-icon{
+      display: none;
+    }
+  }
+}
+
+#window{
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+
+#editorBox{
+  position: absolute;
+  overflow: hidden;
+  // width: 100%;
+  height: 100%;
+  // left: 0;
+  transition: left 0.5s ease-in-out,
+  width 0.5s ease-in-out;
+  @media (min-width: 800px){
+    width: 50%;
+    border-right: 1px solid black;
+  }
+}
+#previewBox{
+  position: absolute;
+  background-color: white;
+  overflow: hidden;
+  // width: 100%;
+  height: 100%;
+  // left: 100%;
+  transition: left 0.5s ease-in-out,
+  width 0.5s ease-in-out;
+  @media (min-width: 800px){
+    left: 50%;
+    width: 50%;
+    border-left: 1px solid black;
+  }
+}
+
+#editorHeader,
+#previewHeader{
+  background-color: rgb(80, 80, 80);
+  color: white;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#editor{
+  width: 100%;
+  height: calc(100% - 50px);
+  padding: 10px;
+  background-color: #f4f4f4;
+  line-height: 1.8rem;
+  resize: none;
+  overflow-y: scroll;
+  outline: none;
+  border: none;
+  font-family:Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 18px;
+  &:focus{
+    background-color: white;
+  }
+}
+
+#preview{
+  font-size: 18px;
+  line-height: 1.8rem;
+  padding: 15px;
+  padding-bottom: 50px;
+  height: calc(100% - 50px);
+  overflow-y: scroll;
+}
+
