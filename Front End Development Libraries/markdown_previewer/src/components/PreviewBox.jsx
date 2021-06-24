@@ -1,13 +1,19 @@
 import React from 'react'
 import 'github-markdown-css'
+import "highlight.js/styles/github.css";
 import useTheme from '../hooks/useTheme';
 import useMarkdown from '../hooks/useMarkdown';
 import  marked from 'marked'
 import parse from 'html-react-parser';
+import hljs from "highlight.js";
 
 marked.setOptions({
+    highlight: function (code, lang) {
+      const language = hljs.getLanguage(lang) ? lang : "plaintext";
+      return hljs.highlight(code, { language }).value;
+    },
     breaks: true
-})
+});
 
 function PreviewBox() {
     let {theme} = useTheme()

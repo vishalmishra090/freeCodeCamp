@@ -55,15 +55,6 @@ This is [an example](http://example.com/ "Title") inline link.
 >> ...by using additional greater-than signs right next to each other...
 > > > ...or with spaces between arrows.
 
-------------------------------------------
-
-## Indentation
-
-  indentation 1-1
-
-indentation 1-2
-    indentation 2-1
-    
 
 ------------------------------------------
 
