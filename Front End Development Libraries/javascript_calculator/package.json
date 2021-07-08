@@ -1,0 +1,20 @@
+{
+  "name": "javascript_calculator",
+  "version": "1.0.0",
+  "description": "In this project, I have created a JavaScript Calculator using jQuery and scss.",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.35.2"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

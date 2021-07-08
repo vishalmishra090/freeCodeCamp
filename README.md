@@ -21,3 +21,4 @@
 1. Build a Random Quote Machine [Link to CodeSandBox](https://codesandbox.io/s/build-a-random-quote-machine-3t3s4)
 2. Build a Markdown Previewer [Link to CodeSandBox](https://codesandbox.io/s/build-a-markdown-previewer-mjv8w)
 3. Build a Drum Machine [Link to CodeSandBox](https://codesandbox.io/s/build-a-drum-machine-4mnlp)
+4. Build a JavaScript Calculator [Link to CodeSandBox](https://codesandbox.io/s/build-a-javascript-calculator-bymgg)
