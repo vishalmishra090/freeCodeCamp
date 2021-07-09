@@ -42,8 +42,8 @@ main {
   grid-template-rows: auto auto auto;
   border-radius: 15px;
   background-color: #717171;
-  box-shadow: inset -4px -4px 7px 2px #1b1b1b, inset 4px 1px 7px 2px #1b1b1b;
-  filter: drop-shadow(5px 10px 10px #7a7a7a);
+  box-shadow: inset -4px -4px 7px 2px #4d4d4d, inset 4px 1px 7px 2px #bdbdbd;
+  filter: drop-shadow(10px 12px 10px #7a7a7a);
 }
 
 #display-box {
@@ -54,7 +54,7 @@ main {
   padding: 5px;
   margin-bottom: 30px;
 
-  &  div {
+  & div {
     width: 100%;
     height: 90px;
     padding: 10px;
@@ -72,11 +72,11 @@ main {
       white-space: pre;
       overflow-x: scroll;
       -ms-overflow-style: none;
-       scrollbar-width: none; /* Firefox */
+      scrollbar-width: none; /* Firefox */
 
-       &::-webkit-scrollbar{
-         display: none;
-       }
+      &::-webkit-scrollbar {
+        display: none;
+      }
     }
 
     #expression {
@@ -84,7 +84,7 @@ main {
       line-height: 28px;
       font-size: 1.5rem;
     }
-    #display{
+    #display {
       height: 42px;
       line-height: 42px;
       font-size: 3rem;
@@ -145,6 +145,3 @@ main {
   }
 }
 
-// https://fonts.google.com/share?selection.family=Mitr%7CPathway%20Gothic%20One%7CRubik%7CUnica%20One
-
-// 0123456789√×−+=%abcdABCD.
