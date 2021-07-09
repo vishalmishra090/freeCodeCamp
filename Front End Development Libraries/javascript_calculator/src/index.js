@@ -43,7 +43,8 @@ function calcHandler(e){
 
 
     if(isEqual && !(isEnter || isBackspace)){
-       clear()
+       if(isNumber || isOperator || isSymbol || isDelete)
+         clear()
        if(!isNumber){
         expr = [...result]
         disp = []
@@ -90,7 +91,8 @@ function calcHandler(e){
     isHandel = false
     
     exprElem.scrollLeft = exprElem.scrollWidth
-    dispElem.scrollLeft = dispElem.scrollWidth 
+    dispElem.scrollLeft = dispElem.scrollWidth
+    $("button").blur()
 }
 
 
