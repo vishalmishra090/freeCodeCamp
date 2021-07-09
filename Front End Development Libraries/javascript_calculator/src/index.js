@@ -376,6 +376,7 @@ function handelEqual(){
     .replaceAll(operator.add, "+")
     .replaceAll(symbol.sqrt, "Math.sqrt")
     .replaceAll(symbol.percent, "*(1/100)")
+    .replaceAll(')(',')*(')
 
     isEqual = true
     expr.push("=")
