@@ -27,6 +27,7 @@ let result = NaN
 
 
 function calcHandler(e){
+    if(e.key && /Control|^c$/i.test(e.key)) return  // fix mouse double touch problem
     let isNumber = /[0-9\.]/g.test(e.key) || [...e.target?.classList].includes("number")
     let isOperator = /[\+\-\*\/]/g.test(e.key) || [...e.target?.classList].includes("operator")
     let isSymbol = /[\%\(\)]/g.test(e.key) || [...e.target?.classList].includes("symbol")
